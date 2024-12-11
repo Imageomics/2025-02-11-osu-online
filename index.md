@@ -432,6 +432,11 @@ please preview your site before committing, and make sure to run
   that may be useful on the
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
+<!-- bold the following -->
+
+<p>
+  <strong>For assistance, attend our remote setup office hour session before the workshop on Friday, 2025-01-07 from 1pm to 3pm EST: <a href="https://imageomics.github.io/2025-02-11-osu-online/assets/office-hour.ics" target="_blank">Add to Calendar</a></strong>
+</p>
 
 {% comment %}
 For online workshops, the section below provides:

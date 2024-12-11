@@ -1,0 +1,79 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:REQUEST
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:Eastern Standard Time
+BEGIN:STANDARD
+DTSTART:16011104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ATTENDEE;CN="Thompson, Matthew";RSVP=TRUE:mailto:thompson.4509@osu.edu
+ATTENDEE;CN="Badger, Kelsey";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:badger.6
+	0@osu.edu
+CLASS:PUBLIC
+CREATED:20241211T152522Z
+DESCRIPTION:Jelmer Poelstra is inviting you to a scheduled Zoom meeting.\n\
+	nJoin Zoom Meeting\nhttps://osu.zoom.us/j/99438191674?pwd=P5dNlYcP35Ma23ZS
+	4bbqHYDB2pd7UK.1\n\n\nMeeting ID: 994 3819 1674\nPassword: 583299\n\n\n\n 
+	\n\n
+DTEND;TZID="Eastern Standard Time":20250207T150000
+DTSTAMP:20241203T030429Z
+DTSTART;TZID="Eastern Standard Time":20250207T130000
+LAST-MODIFIED:20241211T152522Z
+LOCATION:https://osu.zoom.us/j/99438191674?pwd=P5dNlYcP35Ma23ZS4bbqHYDB2pd7
+	UK.1&from=addon
+ORGANIZER;CN="Poelstra, Jelmer":mailto:poelstra.1@osu.edu
+PRIORITY:5
+SEQUENCE:0
+SUMMARY:Office Hours for Carpentries workshops
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E008000000003FFE51113045DB01000000000000000
+	010000000365D30BFE6608941B67B11F14935FB99
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:o="urn:schemas-microsoft-com:offic
+	e:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://
+	schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC
+	-html40"><head>\n<meta name="Generator" content="Microsoft Word 15 (filter
+	ed medium)"><style><!--\n/* Font Definitions */\n@font-face\n	{font-family
+	:"Cambria Math"\;\n	panose-1:2 4 5 3 5 4 6 3 2 4\;}\n@font-face\n	{font-fa
+	mily:Aptos\;\n	panose-1:2 11 0 4 2 2 2 2 2 4\;}\n/* Style Definitions */\n
+	p.MsoNormal\, li.MsoNormal\, div.MsoNormal\n	{margin:0in\;\n	font-size:11.
+	0pt\;\n	font-family:"Aptos"\,sans-serif\;\n	mso-ligatures:standardcontextu
+	al\;}\na:link\, span.MsoHyperlink\n	{mso-style-priority:99\;\n	color:#4678
+	86\;\n	text-decoration:underline\;}\n.MsoChpDefault\n	{mso-style-type:expo
+	rt-only\;\n	font-size:10.0pt\;\n	mso-ligatures:none\;}\n@page WordSection1
+	\n	{size:8.5in 11.0in\;\n	margin:1.0in 1.0in 1.0in 1.0in\;}\ndiv.WordSecti
+	on1\n	{page:WordSection1\;}\n--></style></head><body lang="EN-US" link="#4
+	67886" vlink="#96607D" style="word-wrap:break-word"><div class="WordSectio
+	n1"><p class="MsoNormal"><span style="font-size:12.0pt\;mso-ligatures:none
+	">Jelmer Poelstra is inviting you to a scheduled Zoom meeting.<br><br>Join
+	 Zoom Meeting<br><a href="https://osu.zoom.us/j/99438191674?pwd=P5dNlYcP35
+	Ma23ZS4bbqHYDB2pd7UK.1">https://osu.zoom.us/j/99438191674?pwd=P5dNlYcP35Ma
+	23ZS4bbqHYDB2pd7UK.1</a><o:p></o:p></span></p><p class="MsoNormal"><span s
+	tyle="font-size:12.0pt\;mso-ligatures:none"><br>Meeting ID: 994 3819 1674<
+	br>Password: 583299<br><br></span></p><p class="MsoNormal">&nbsp\;</p></di
+	v></body></html>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-APPTLASTSEQUENCE:0
+X-MS-OLK-APPTSEQTIME:20241203T030429Z
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
